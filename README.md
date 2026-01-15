@@ -142,6 +142,22 @@ Clustering parameters were **data-driven**, not guessed.
 
 ---
 
+## 🚀 How to Run the Dashboard
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/HarshitChhabra28/Traffic-Hotspot-Intelligence.git
+cd Traffic-Hotspot-Intelligence
+```
+### 2️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3️⃣ Launch the App
+```bash
+streamlit run app.py
+```
+---
 ## 📊 Project Structure
 
 ```text
@@ -157,4 +173,20 @@ Traffic-Hotspot-Intelligence/
 │   └── 02_final_cluster_map.html
 │
 └── README.md
+```
+---
+
+## 📉 Data Source
+
+**Dataset:** US Accidents (2016–2023) — Kaggle
+
+**Data Processing Steps:**
+- Filtered records to **Miami, FL**
+- Removed duplicate accident reports from multiple agencies
+- Dropped records with invalid or missing geographic coordinates
+- Imputed missing street names for consistency
+
+
+
+
 
