@@ -379,8 +379,3 @@ Traffic-Hotspot-Intelligence/
 - Dropped records with invalid or missing geographic coordinates
 - Imputed missing street names for consistency
 
-
-
-
-
->>>>>>> 2887c3a1ba40de70cc4fbb073afc92f02f45c3f4
